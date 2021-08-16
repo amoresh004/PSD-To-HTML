@@ -1,5 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #373737;
+}
+
 body{
-    font-family: 'Khula', sans-serif;
+    font-family: 'Khula', sans-serif; font-size: 15px; color: #999
+}
+
+a:hover { text-decoration: none }
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu li a {
+    color: #373737;
+    display: block;
+    padding: 12px 15px;
+}
+
+.header-section {
+    font-weight: 300;
+    padding: 150px 0;
+}
+
+.header-section h1 {
+    font-size: 40px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+
+input[type="text"], input[type="url"], input[type="email"], input[type="tel"], input[type="password"] {
+    border: 1px solid #efefef;
+    padding: 10px 15px;
+}
+
+input[type="submit"], button[type="submit"] {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 3px;
+}
+.btn-danger, input[type="submit"], button[type="submit"] {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.subscriber-form {
+    margin-top: 30px;
+}
+
+.header-area {
+    padding: 20px;
 }
